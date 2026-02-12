@@ -42,7 +42,7 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  spec.source       = { :git => "git@github.com:B-HOLDINGS/bubbl-ios-sdk.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "git@github.com:bubbl-repo/bubbl-ios-sdk.git", :tag => "#{spec.version}" }
 
   # spec.framework  = "SomeFramework"
   spec.frameworks = 'UIKit', 'CoreLocation', 'UserNotifications'
