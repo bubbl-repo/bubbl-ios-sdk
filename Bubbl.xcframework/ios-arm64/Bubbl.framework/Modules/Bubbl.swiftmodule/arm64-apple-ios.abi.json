@@ -16764,51 +16764,79 @@
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "Array",
-      "offset": 1658,
+      "offset": 1743,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "StringLiteral",
-      "offset": 2622,
+      "offset": 2707,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "Array",
-      "offset": 2849,
+      "offset": 2934,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3074,
+      "offset": 3159,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3144,
+      "offset": 3229,
       "length": 3,
       "value": "150"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3209,
+      "offset": 3294,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3280,
+      "offset": 3365,
       "length": 3,
       "value": "250"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "kind": "StringLiteral",
+      "offset": 3409,
+      "length": 26,
+      "value": "\"Bubbl.PushDeliveredAt.v1\""
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3489,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3494,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3499,
+      "length": 2,
+      "value": "60"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
