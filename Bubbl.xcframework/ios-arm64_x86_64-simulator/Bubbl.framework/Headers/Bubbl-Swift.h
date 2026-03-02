@@ -351,6 +351,7 @@ typedef SWIFT_ENUM(NSInteger, BubblEnvironment, open) {
   BubblEnvironmentDevelopment = 0,
   BubblEnvironmentStaging = 1,
   BubblEnvironmentProduction = 2,
+  BubblEnvironmentNightly = 3,
 };
 
 @class UNNotificationResponse;
@@ -903,6 +904,7 @@ typedef SWIFT_ENUM(NSInteger, BubblEnvironment, open) {
   BubblEnvironmentDevelopment = 0,
   BubblEnvironmentStaging = 1,
   BubblEnvironmentProduction = 2,
+  BubblEnvironmentNightly = 3,
 };
 
 @class UNNotificationResponse;

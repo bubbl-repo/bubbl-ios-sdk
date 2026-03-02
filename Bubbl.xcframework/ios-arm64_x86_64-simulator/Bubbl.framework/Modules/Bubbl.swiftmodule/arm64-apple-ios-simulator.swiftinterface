@@ -166,6 +166,7 @@ public struct NotificationEnvelope : Swift.Identifiable {
 public struct Config {
   public enum Environment : Swift.String, Swift.CaseIterable, Swift.Codable {
     case development
+    case nightly
     case staging
     case production
     #if compiler(>=5.3) && $NonescapableTypes
@@ -185,6 +186,7 @@ public struct Config {
   case development = 0
   case staging = 1
   case production = 2
+  case nightly = 3
   #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
   #endif

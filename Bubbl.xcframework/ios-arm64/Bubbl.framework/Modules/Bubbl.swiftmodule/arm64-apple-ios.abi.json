@@ -4713,6 +4713,43 @@
               },
               {
                 "kind": "Var",
+                "name": "nightly",
+                "printedName": "nightly",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Bubbl.Config.Environment.Type) -> Bubbl.Config.Environment",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Environment",
+                        "printedName": "Bubbl.Config.Environment",
+                        "usr": "s:5Bubbl6ConfigV11EnvironmentO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Bubbl.Config.Environment.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Environment",
+                            "printedName": "Bubbl.Config.Environment",
+                            "usr": "s:5Bubbl6ConfigV11EnvironmentO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5Bubbl6ConfigV11EnvironmentO7nightlyyA2EmF",
+                "mangledName": "$s5Bubbl6ConfigV11EnvironmentO7nightlyyA2EmF",
+                "moduleName": "Bubbl"
+              },
+              {
+                "kind": "Var",
                 "name": "staging",
                 "printedName": "staging",
                 "children": [
@@ -5214,6 +5251,47 @@
               "ObjC"
             ],
             "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "nightly",
+            "printedName": "nightly",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Bubbl.BubblEnvironment.Type) -> Bubbl.BubblEnvironment",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblEnvironment",
+                    "printedName": "Bubbl.BubblEnvironment",
+                    "usr": "c:@M@Bubbl@E@BubblEnvironment"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Bubbl.BubblEnvironment.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "BubblEnvironment",
+                        "printedName": "Bubbl.BubblEnvironment",
+                        "usr": "c:@M@Bubbl@E@BubblEnvironment"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Bubbl@E@BubblEnvironment@BubblEnvironmentNightly",
+            "mangledName": "$s5Bubbl0A11EnvironmentO7nightlyyA2CmF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Constructor",
@@ -16974,70 +17052,77 @@
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1386,
+      "offset": 695,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1447,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1419,
+      "offset": 1480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1455,
+      "offset": 1516,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1491,
+      "offset": 1552,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1526,
+      "offset": 1587,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4127,
+      "offset": 4188,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 4552,
+      "offset": 4613,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 4602,
+      "offset": 4663,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 4984,
+      "offset": 5045,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 13150,
+      "offset": 13211,
       "length": 5,
       "value": "false"
     },
