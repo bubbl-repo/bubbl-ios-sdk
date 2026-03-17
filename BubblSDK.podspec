@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BubblSDK"
-  spec.version      = "2.2.7"
+  spec.version      = "2.2.8"
   spec.summary      = "Highly-accurate geofence activation & analytics SDK."
 
  
