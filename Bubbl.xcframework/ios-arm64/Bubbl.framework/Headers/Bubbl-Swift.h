@@ -380,6 +380,8 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) BubblPlugin 
 @property (nonatomic, readonly, copy) NSURL * _Nonnull logFileURL;
 - (void)clearLogs;
 - (void)startWithApiKey:(NSString * _Nonnull)apiKey environment:(enum BubblEnvironment)environment segmentations:(NSArray * _Nullable)segmentations delegate:(id <BubblPluginDelegate> _Nullable)delegate;
+- (void)startWithEnvironment:(enum BubblEnvironment)environment segmentations:(NSArray * _Nullable)segmentations delegate:(id <BubblPluginDelegate> _Nullable)delegate;
+- (void)startWithCompanyApiKey:(NSString * _Nonnull)companyApiKey appId:(NSString * _Nonnull)appId appApiKey:(NSString * _Nonnull)appApiKey iosBundleId:(NSString * _Nonnull)iosBundleId environment:(enum BubblEnvironment)environment segmentations:(NSArray * _Nullable)segmentations delegate:(id <BubblPluginDelegate> _Nullable)delegate;
 /// Objective-C compatible method to update device segmentation tags.
 /// \param segmentations Array of segment tags
 ///

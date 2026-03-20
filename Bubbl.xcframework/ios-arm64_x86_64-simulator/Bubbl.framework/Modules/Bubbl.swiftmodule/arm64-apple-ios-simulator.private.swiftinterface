@@ -206,10 +206,22 @@ public struct Config {
   }
   @objc final public func clearLogs()
   #if compiler(>=5.3) && $NonescapableTypes
+  final public func start(env: Bubbl.Config.Environment = .staging, segmentations: [Swift.String] = [], delegate: (any Bubbl.BubblPluginDelegate)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func start(apiKey: Swift.String, env: Bubbl.Config.Environment = .staging, segmentations: [Swift.String] = [], delegate: (any Bubbl.BubblPluginDelegate)? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
+  final public func start(companyApiKey: Swift.String, appId: Swift.String, appApiKey: Swift.String, iosBundleId: Swift.String, env: Bubbl.Config.Environment = .staging, segmentations: [Swift.String] = [], includeLegacyApiKeyHeader: Swift.Bool = true, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc(startWithApiKey:environment:segmentations:delegate:) final public func startObjC(apiKey: Swift.String, environment: Bubbl.BubblEnvironment, segmentations: Foundation.NSArray? = nil, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(startWithEnvironment:segmentations:delegate:) final public func startObjC(environment: Bubbl.BubblEnvironment, segmentations: Foundation.NSArray? = nil, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(startWithCompanyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:) final public func startObjC(companyApiKey: Swift.String, appId: Swift.String, appApiKey: Swift.String, iosBundleId: Swift.String, environment: Bubbl.BubblEnvironment, segmentations: Foundation.NSArray? = nil, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   final public func updateSegments(segmentations: [Swift.String], completion: ((Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)? = nil)

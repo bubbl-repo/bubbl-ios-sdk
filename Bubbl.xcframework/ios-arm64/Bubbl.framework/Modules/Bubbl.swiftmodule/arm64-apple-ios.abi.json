@@ -5674,6 +5674,64 @@
           {
             "kind": "Function",
             "name": "start",
+            "printedName": "start(env:segmentations:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "Bubbl.Config.Environment",
+                "hasDefaultArg": true,
+                "usr": "s:5Bubbl6ConfigV11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Bubbl.BubblPluginDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblPluginDelegate",
+                    "printedName": "any Bubbl.BubblPluginDelegate",
+                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl0A6PluginC5start3env13segmentations8delegateyAA6ConfigV11EnvironmentO_SaySSGAA0aB8Delegate_pSgtF",
+            "mangledName": "$s5Bubbl0A6PluginC5start3env13segmentations8delegateyAA6ConfigV11EnvironmentO_SaySSGAA0aB8Delegate_pSgtF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
             "printedName": "start(apiKey:env:segmentations:delegate:)",
             "children": [
               {
@@ -5733,6 +5791,95 @@
               "Final",
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(companyApiKey:appId:appApiKey:iosBundleId:env:segmentations:includeLegacyApiKeyHeader:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Environment",
+                "printedName": "Bubbl.Config.Environment",
+                "hasDefaultArg": true,
+                "usr": "s:5Bubbl6ConfigV11EnvironmentO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Bubbl.BubblPluginDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblPluginDelegate",
+                    "printedName": "any Bubbl.BubblPluginDelegate",
+                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5Bubbl0A6PluginC5start13companyApiKey5appId0geF009iosBundleH03env13segmentations013includeLegacyeF6Header8delegateySS_S3SAA6ConfigV11EnvironmentOSaySSGSbAA0aB8Delegate_pSgtF",
+            "mangledName": "$s5Bubbl0A6PluginC5start13companyApiKey5appId0geF009iosBundleH03env13segmentations013includeLegacyeF6Header8delegateySS_S3SAA6ConfigV11EnvironmentOSaySSGSbAA0aB8Delegate_pSgtF",
+            "moduleName": "Bubbl",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5799,6 +5946,148 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startObjC",
+            "printedName": "startObjC(environment:segmentations:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BubblEnvironment",
+                "printedName": "Bubbl.BubblEnvironment",
+                "usr": "c:@M@Bubbl@E@BubblEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSArray?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Bubbl.BubblPluginDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblPluginDelegate",
+                    "printedName": "any Bubbl.BubblPluginDelegate",
+                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)startWithEnvironment:segmentations:delegate:",
+            "mangledName": "$s5Bubbl0A6PluginC9startObjC11environment13segmentations8delegateyAA0A11EnvironmentO_So7NSArrayCSgAA0aB8Delegate_pSgtF",
+            "moduleName": "Bubbl",
+            "objc_name": "startWithEnvironment:segmentations:delegate:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startObjC",
+            "printedName": "startObjC(companyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "BubblEnvironment",
+                "printedName": "Bubbl.BubblEnvironment",
+                "usr": "c:@M@Bubbl@E@BubblEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSArray?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSArray",
+                    "printedName": "Foundation.NSArray",
+                    "usr": "c:objc(cs)NSArray"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Bubbl.BubblPluginDelegate)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BubblPluginDelegate",
+                    "printedName": "any Bubbl.BubblPluginDelegate",
+                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)startWithCompanyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:",
+            "mangledName": "$s5Bubbl0A6PluginC9startObjC13companyApiKey5appId0hfG009iosBundleI011environment13segmentations8delegateySS_S3SAA0A11EnvironmentOSo7NSArrayCSgAA0aB8Delegate_pSgtF",
+            "moduleName": "Bubbl",
+            "objc_name": "startWithCompanyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -17101,28 +17390,49 @@
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 4613,
+      "offset": 4690,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 4663,
+      "offset": 4740,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 5045,
+      "offset": 5049,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "Array",
+      "offset": 5970,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "Array",
+      "offset": 11566,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 13211,
+      "offset": 11626,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18299,
       "length": 5,
       "value": "false"
     },
@@ -17548,806 +17858,813 @@
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 13,
+      "value": "\"BubblConfig\""
+    },
+    {
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 1951,
+      "offset": 6943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2018,
+      "offset": 7078,
       "length": 16,
       "value": "\"Bubbl.DeviceID\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2070,
+      "offset": 7130,
       "length": 15,
       "value": "\"Bubbl.BubblID\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2121,
+      "offset": 7181,
       "length": 14,
       "value": "\"Bubbl.APIKey\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2171,
+      "offset": 7231,
       "length": 27,
       "value": "\"Bubbl.DeviceRegistered.v1\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 7294,
       "length": 32,
       "value": "\"Bubbl.LastSyncedDeviceToken.v1\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 7362,
       "length": 22,
       "value": "\"Bubbl.Environment.v1\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2360,
+      "offset": 7420,
       "length": 16,
       "value": "\"Bubbl.Segments\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2412,
+      "offset": 7472,
       "length": 21,
       "value": "\"Bubbl.CorrelationID\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2469,
+      "offset": 7529,
       "length": 21,
       "value": "\"Bubbl.Configuration\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2534,
+      "offset": 7594,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 2616,
+      "offset": 7676,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "Array",
-      "offset": 7757,
+      "offset": 13386,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 8059,
+      "offset": 13688,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8569,
+      "offset": 14198,
       "length": 30,
       "value": "\"\/api\/device-registerd\/create\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8667,
+      "offset": 14296,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8695,
+      "offset": 14324,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8735,
+      "offset": 14364,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8772,
+      "offset": 14401,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8812,
+      "offset": 14441,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8883,
+      "offset": 14512,
       "length": 8,
       "value": "\"ApiKey\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9413,
+      "offset": 15042,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9497,
+      "offset": 15126,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9582,
+      "offset": 15211,
       "length": 3,
       "value": "\",\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9676,
+      "offset": 15305,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9732,
+      "offset": 15361,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9790,
+      "offset": 15419,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9820,
+      "offset": 15449,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9843,
+      "offset": 15472,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9880,
+      "offset": 15509,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9938,
+      "offset": 15567,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9982,
+      "offset": 15611,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 9999,
+      "offset": 15628,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10016,
+      "offset": 15645,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10035,
+      "offset": 15664,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10086,
+      "offset": 15715,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10129,
+      "offset": 15758,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10171,
+      "offset": 15800,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10188,
+      "offset": 15817,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10209,
+      "offset": 15838,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10265,
+      "offset": 15894,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10321,
+      "offset": 15950,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10411,
+      "offset": 16040,
       "length": 15,
       "value": "\"segmentations\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10451,
+      "offset": 16080,
       "length": 16,
       "value": "\"correlation_id\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10496,
+      "offset": 16125,
       "length": 10,
       "value": "\"bubbl_id\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10513,
+      "offset": 16142,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10530,
+      "offset": 16159,
       "length": 14,
       "value": "\"device_token\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10864,
+      "offset": 16493,
       "length": 459,
       "value": "\"┌─🔒  Registering device\n│ URL: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 10945,
+      "offset": 16574,
       "length": 3,
       "value": "\"\n│ Headers:\n│   Content-Type: application\/json\n│   Accept: application\/json\n│   ApiKey: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 11082,
+      "offset": 16711,
       "length": 3,
       "value": "\"\n│ Body:\n\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 11154,
+      "offset": 16783,
       "length": 12,
       "value": "\"<non-utf8>\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 11167,
+      "offset": 16796,
       "length": 135,
       "value": "\"\n└────────────────────────────────────────────\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 11879,
+      "offset": 17508,
       "length": 27,
       "value": "\"HTTP request failed: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 11905,
+      "offset": 17534,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12244,
+      "offset": 17873,
       "length": 448,
       "value": "\"┌─📬  HTTP \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12299,
+      "offset": 17928,
       "length": 3,
       "value": "\"\n│ Headers:\n\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12374,
+      "offset": 18003,
       "length": 20,
       "value": "\"│   \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12386,
+      "offset": 18015,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12393,
+      "offset": 18022,
       "length": 23,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12415,
+      "offset": 18044,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12421,
+      "offset": 18050,
       "length": 3,
       "value": "\"\n│ Raw body:\n\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12509,
+      "offset": 18138,
       "length": 10,
       "value": "\"<binary>\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 12520,
+      "offset": 18149,
       "length": 135,
       "value": "\"\n└────────────────────────────────────────────\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 12718,
+      "offset": 18347,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 12724,
+      "offset": 18353,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 13649,
+      "offset": 19278,
       "length": 26,
       "value": "\"Decoding error: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 13674,
+      "offset": 19303,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 14130,
+      "offset": 19759,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 14265,
+      "offset": 19894,
       "length": 9,
       "value": "\"pending\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 14814,
+      "offset": 20443,
       "length": 30,
       "value": "\"\/api\/device-registerd\/create\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 14928,
+      "offset": 20557,
       "length": 47,
       "value": "\"Skipping token sync - invalid URL: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 14974,
+      "offset": 20603,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15513,
+      "offset": 21142,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15541,
+      "offset": 21170,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15581,
+      "offset": 21210,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15618,
+      "offset": 21247,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15658,
+      "offset": 21287,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15717,
+      "offset": 21346,
       "length": 8,
       "value": "\"ApiKey\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15780,
+      "offset": 21409,
       "length": 10,
       "value": "\"app_name\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15838,
+      "offset": 21467,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15868,
+      "offset": 21497,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15891,
+      "offset": 21520,
       "length": 9,
       "value": "\"api_key\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15928,
+      "offset": 21557,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15986,
+      "offset": 21615,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16030,
+      "offset": 21659,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16047,
+      "offset": 21676,
       "length": 10,
       "value": "\"platform\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16064,
+      "offset": 21693,
       "length": 5,
       "value": "\"iOS\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16083,
+      "offset": 21712,
       "length": 12,
       "value": "\"os_version\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16134,
+      "offset": 21763,
       "length": 14,
       "value": "\"device_model\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16177,
+      "offset": 21806,
       "length": 13,
       "value": "\"device_name\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16219,
+      "offset": 21848,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16236,
+      "offset": 21865,
       "length": 7,
       "value": "\"Apple\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16257,
+      "offset": 21886,
       "length": 9,
       "value": "\"country\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16313,
+      "offset": 21942,
       "length": 10,
       "value": "\"language\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16369,
+      "offset": 21998,
       "length": 11,
       "value": "\"device_id\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16408,
+      "offset": 22037,
       "length": 15,
       "value": "\"segmentations\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16468,
+      "offset": 22097,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16484,
+      "offset": 22113,
       "length": 16,
       "value": "\"correlation_id\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16550,
+      "offset": 22179,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16566,
+      "offset": 22195,
       "length": 10,
       "value": "\"bubbl_id\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16623,
+      "offset": 22252,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16640,
+      "offset": 22269,
       "length": 14,
       "value": "\"device_token\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "Array",
-      "offset": 16772,
+      "offset": 22401,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16814,
+      "offset": 22443,
       "length": 48,
       "value": "\"Skipping token sync - failed to serialize body\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16953,
+      "offset": 22582,
       "length": 46,
       "value": "\"🔄 Syncing refreshed push token to backend\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17131,
+      "offset": 22760,
       "length": 50,
       "value": "\"Token sync failed: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17180,
+      "offset": 22809,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17321,
+      "offset": 22950,
       "length": 37,
       "value": "\"Token sync failed: invalid response\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 17417,
+      "offset": 23046,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 17423,
+      "offset": 23052,
       "length": 3,
       "value": "299"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17496,
+      "offset": 23125,
       "length": 51,
       "value": "\"Token sync failed with status: \""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17546,
+      "offset": 23175,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17682,
+      "offset": 23311,
       "length": 23,
       "value": "\"✅ Push token synced\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 22766,
+      "offset": 28395,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-current\/misc\/bubbl-ios-v2.1\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 35661,
+      "offset": 42236,
       "length": 2,
       "value": "-1"
     }
