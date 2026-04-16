@@ -7,5 +7,4 @@ framework module Bubbl {
 
 module Bubbl.Swift {
   header "Bubbl-Swift.h"
-  requires objc
 }
