@@ -4713,43 +4713,6 @@
               },
               {
                 "kind": "Var",
-                "name": "nightly",
-                "printedName": "nightly",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Bubbl.Config.Environment.Type) -> Bubbl.Config.Environment",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Environment",
-                        "printedName": "Bubbl.Config.Environment",
-                        "usr": "s:5Bubbl6ConfigV11EnvironmentO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "Bubbl.Config.Environment.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Environment",
-                            "printedName": "Bubbl.Config.Environment",
-                            "usr": "s:5Bubbl6ConfigV11EnvironmentO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:5Bubbl6ConfigV11EnvironmentO7nightlyyA2EmF",
-                "mangledName": "$s5Bubbl6ConfigV11EnvironmentO7nightlyyA2EmF",
-                "moduleName": "Bubbl"
-              },
-              {
-                "kind": "Var",
                 "name": "staging",
                 "printedName": "staging",
                 "children": [
@@ -5253,47 +5216,6 @@
             "fixedbinaryorder": 2
           },
           {
-            "kind": "Var",
-            "name": "nightly",
-            "printedName": "nightly",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Bubbl.BubblEnvironment.Type) -> Bubbl.BubblEnvironment",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BubblEnvironment",
-                    "printedName": "Bubbl.BubblEnvironment",
-                    "usr": "c:@M@Bubbl@E@BubblEnvironment"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "Bubbl.BubblEnvironment.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "BubblEnvironment",
-                        "printedName": "Bubbl.BubblEnvironment",
-                        "usr": "c:@M@Bubbl@E@BubblEnvironment"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "c:@M@Bubbl@E@BubblEnvironment@BubblEnvironmentNightly",
-            "mangledName": "$s5Bubbl0A11EnvironmentO7nightlyyA2CmF",
-            "moduleName": "Bubbl",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 3
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -5674,64 +5596,6 @@
           {
             "kind": "Function",
             "name": "start",
-            "printedName": "start(env:segmentations:delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "Bubbl.Config.Environment",
-                "hasDefaultArg": true,
-                "usr": "s:5Bubbl6ConfigV11EnvironmentO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Bubbl.BubblPluginDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BubblPluginDelegate",
-                    "printedName": "any Bubbl.BubblPluginDelegate",
-                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5Bubbl0A6PluginC5start3env13segmentations8delegateyAA6ConfigV11EnvironmentO_SaySSGAA0aB8Delegate_pSgtF",
-            "mangledName": "$s5Bubbl0A6PluginC5start3env13segmentations8delegateyAA6ConfigV11EnvironmentO_SaySSGAA0aB8Delegate_pSgtF",
-            "moduleName": "Bubbl",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "start",
             "printedName": "start(apiKey:env:segmentations:delegate:)",
             "children": [
               {
@@ -5791,95 +5655,6 @@
               "Final",
               "AccessControl",
               "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "start",
-            "printedName": "start(companyApiKey:appId:appApiKey:iosBundleId:env:segmentations:includeLegacyApiKeyHeader:delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Environment",
-                "printedName": "Bubbl.Config.Environment",
-                "hasDefaultArg": true,
-                "usr": "s:5Bubbl6ConfigV11EnvironmentO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[Swift.String]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Bubbl.BubblPluginDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BubblPluginDelegate",
-                    "printedName": "any Bubbl.BubblPluginDelegate",
-                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:5Bubbl0A6PluginC5start13companyApiKey5appId0geF009iosBundleH03env13segmentations013includeLegacyeF6Header8delegateySS_S3SAA6ConfigV11EnvironmentOSaySSGSbAA0aB8Delegate_pSgtF",
-            "mangledName": "$s5Bubbl0A6PluginC5start13companyApiKey5appId0geF009iosBundleH03env13segmentations013includeLegacyeF6Header8delegateySS_S3SAA6ConfigV11EnvironmentOSaySSGSbAA0aB8Delegate_pSgtF",
-            "moduleName": "Bubbl",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5946,148 +5721,6 @@
               "AccessControl",
               "ObjC",
               "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startObjC",
-            "printedName": "startObjC(environment:segmentations:delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BubblEnvironment",
-                "printedName": "Bubbl.BubblEnvironment",
-                "usr": "c:@M@Bubbl@E@BubblEnvironment"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.NSArray?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Bubbl.BubblPluginDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BubblPluginDelegate",
-                    "printedName": "any Bubbl.BubblPluginDelegate",
-                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)startWithEnvironment:segmentations:delegate:",
-            "mangledName": "$s5Bubbl0A6PluginC9startObjC11environment13segmentations8delegateyAA0A11EnvironmentO_So7NSArrayCSgAA0aB8Delegate_pSgtF",
-            "moduleName": "Bubbl",
-            "objc_name": "startWithEnvironment:segmentations:delegate:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "startObjC",
-            "printedName": "startObjC(companyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "BubblEnvironment",
-                "printedName": "Bubbl.BubblEnvironment",
-                "usr": "c:@M@Bubbl@E@BubblEnvironment"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.NSArray?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSArray",
-                    "printedName": "Foundation.NSArray",
-                    "usr": "c:objc(cs)NSArray"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "(any Bubbl.BubblPluginDelegate)?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "BubblPluginDelegate",
-                    "printedName": "any Bubbl.BubblPluginDelegate",
-                    "usr": "c:@M@Bubbl@objc(pl)BubblPluginDelegate"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@Bubbl@objc(cs)BubblPlugin(im)startWithCompanyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:",
-            "mangledName": "$s5Bubbl0A6PluginC9startObjC13companyApiKey5appId0hfG009iosBundleI011environment13segmentations8delegateySS_S3SAA0A11EnvironmentOSo7NSArrayCSgAA0aB8Delegate_pSgtF",
-            "moduleName": "Bubbl",
-            "objc_name": "startWithCompanyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -17101,1570 +16734,1507 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/NotificationType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/NotificationType.swift",
       "kind": "IntegerLiteral",
       "offset": 172,
       "length": 8,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/NotificationType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/NotificationType.swift",
       "kind": "IntegerLiteral",
       "offset": 226,
       "length": 8,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
       "offset": 1035,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "StringLiteral",
       "offset": 1074,
       "length": 22,
       "value": "\"bubbl-geofences.json\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "Array",
-      "offset": 1743,
+      "offset": 1658,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "StringLiteral",
-      "offset": 2707,
+      "offset": 2622,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "Array",
-      "offset": 2934,
+      "offset": 2849,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3159,
+      "offset": 3074,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3229,
+      "offset": 3144,
       "length": 3,
       "value": "150"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3294,
+      "offset": 3209,
       "length": 3,
       "value": "120"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3365,
+      "offset": 3280,
       "length": 3,
       "value": "250"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
-      "kind": "StringLiteral",
-      "offset": 3409,
-      "length": 26,
-      "value": "\"Bubbl.PushDeliveredAt.v1\""
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3489,
-      "length": 2,
-      "value": "24"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3494,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/GeofenceService.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3499,
-      "length": 2,
-      "value": "60"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
       "kind": "StringLiteral",
       "offset": 470,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
       "kind": "StringLiteral",
       "offset": 510,
       "length": 10,
       "value": "\"bubbl_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
       "kind": "StringLiteral",
       "offset": 918,
       "length": 22,
       "value": "\"device_registered_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
       "kind": "StringLiteral",
       "offset": 976,
       "length": 12,
       "value": "\"company_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/API\/SimpleResponseModels.swift",
       "kind": "StringLiteral",
       "offset": 1054,
       "length": 25,
       "value": "\"curated_notification_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Array",
       "offset": 2056,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Dictionary",
       "offset": 2529,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Dictionary",
       "offset": 2730,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 2828,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Dictionary",
       "offset": 3205,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Dictionary",
       "offset": 3295,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 3487,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Array",
       "offset": 3586,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "Array",
       "offset": 3791,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/BackgroundRegionMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 3959,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Notification\/NotificationEnvelope.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Notification\/NotificationEnvelope.swift",
       "kind": "Dictionary",
       "offset": 824,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 620,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 645,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
       "offset": 670,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1447,
+      "offset": 1386,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1480,
+      "offset": 1419,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1516,
+      "offset": 1455,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1552,
+      "offset": 1491,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1587,
+      "offset": 1526,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "StringLiteral",
-      "offset": 4188,
+      "offset": 4127,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 4690,
+      "offset": 4552,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "IntegerLiteral",
-      "offset": 4740,
+      "offset": 4602,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "Array",
-      "offset": 5049,
+      "offset": 4984,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
-      "kind": "Array",
-      "offset": 5970,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
-      "kind": "Array",
-      "offset": 11566,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
       "kind": "BooleanLiteral",
-      "offset": 11626,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Core\/BubblPlugin.swift",
-      "kind": "BooleanLiteral",
-      "offset": 18287,
+      "offset": 13150,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
       "kind": "StringLiteral",
       "offset": 2322,
       "length": 15,
       "value": "\"question_type\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
       "kind": "StringLiteral",
       "offset": 2364,
       "length": 13,
       "value": "\"has_choices\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
       "kind": "Array",
       "offset": 1209,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1243,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
       "kind": "IntegerLiteral",
       "offset": 1421,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationPermissionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 1497,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Utilities\/Logger.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Utilities\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 966,
       "length": 18,
       "value": "\"com.bubbl.logger\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "IntegerLiteral",
       "offset": 454,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "FloatLiteral",
       "offset": 499,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "StringLiteral",
       "offset": 552,
       "length": 16,
       "value": "\"com.bubbl.sync\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "StringLiteral",
       "offset": 641,
       "length": 23,
       "value": "\"com.bubbl.reliability\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "Array",
       "offset": 772,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "Dictionary",
       "offset": 822,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "Array",
       "offset": 937,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "Array",
       "offset": 986,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "IntegerLiteral",
       "offset": 1608,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "IntegerLiteral",
       "offset": 1636,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "IntegerLiteral",
       "offset": 1662,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/LocationTrackingReliability.swift",
       "kind": "IntegerLiteral",
       "offset": 1692,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "Array",
       "offset": 2417,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "Array",
       "offset": 2457,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 2713,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 2768,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 2831,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "Dictionary",
       "offset": 3074,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 3172,
       "length": 3,
       "value": "900"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 3585,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "IntegerLiteral",
       "offset": 4039,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "BooleanLiteral",
       "offset": 4102,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "Dictionary",
       "offset": 4308,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "Dictionary",
       "offset": 4394,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "FloatLiteral",
       "offset": 8928,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "StringLiteral",
       "offset": 8950,
       "length": 10,
       "value": "\"standard\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "FloatLiteral",
       "offset": 11387,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/ForegroundGeofenceMonitor.swift",
       "kind": "StringLiteral",
       "offset": 11409,
       "length": 10,
       "value": "\"standard\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
       "kind": "IntegerLiteral",
       "offset": 883,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
       "kind": "IntegerLiteral",
       "offset": 905,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
       "kind": "IntegerLiteral",
       "offset": 930,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ConfigurationModel.swift",
       "kind": "StringLiteral",
       "offset": 954,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
       "offset": 164,
       "length": 16,
       "value": "1"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
       "offset": 216,
       "length": 21,
       "value": "2"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
       "offset": 247,
       "length": 11,
       "value": "3"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
       "offset": 268,
       "length": 15,
       "value": "4"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
       "offset": 293,
       "length": 13,
       "value": "5"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Common\/ActivityType.swift",
       "kind": "IntegerLiteral",
       "offset": 316,
       "length": 14,
       "value": "6"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Campaign\/CampaignModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Campaign\/CampaignModels.swift",
       "kind": "Array",
       "offset": 474,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 726,
       "length": 22,
       "value": "\"device_registered_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 786,
       "length": 25,
       "value": "\"curated_notification_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 860,
       "length": 13,
       "value": "\"location_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 1770,
       "length": 13,
       "value": "\"question_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 2354,
       "length": 11,
       "value": "\"choice_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 2876,
       "length": 15,
       "value": "\"question_type\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 2918,
       "length": 13,
       "value": "\"has_choices\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 3874,
       "length": 9,
       "value": "\"BOOLEAN\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 3931,
       "length": 8,
       "value": "\"NUMBER\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 3989,
       "length": 12,
       "value": "\"OPEN_ENDED\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 4037,
       "length": 8,
       "value": "\"RATING\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 4096,
       "length": 8,
       "value": "\"SLIDER\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 4169,
       "length": 15,
       "value": "\"SINGLE_CHOICE\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Survey\/SurveyModels.swift",
       "kind": "StringLiteral",
       "offset": 4229,
       "length": 17,
       "value": "\"MULTIPLE_CHOICE\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
-      "kind": "StringLiteral",
-      "offset": 842,
-      "length": 13,
-      "value": "\"BubblConfig\""
-    },
-    {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 7914,
+      "offset": 1951,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8049,
+      "offset": 2018,
       "length": 16,
       "value": "\"Bubbl.DeviceID\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8101,
+      "offset": 2070,
       "length": 15,
       "value": "\"Bubbl.BubblID\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8152,
+      "offset": 2121,
       "length": 14,
       "value": "\"Bubbl.APIKey\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8202,
+      "offset": 2171,
       "length": 27,
       "value": "\"Bubbl.DeviceRegistered.v1\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8265,
+      "offset": 2234,
       "length": 32,
       "value": "\"Bubbl.LastSyncedDeviceToken.v1\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8333,
+      "offset": 2302,
       "length": 22,
       "value": "\"Bubbl.Environment.v1\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8391,
+      "offset": 2360,
       "length": 16,
       "value": "\"Bubbl.Segments\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8443,
+      "offset": 2412,
       "length": 21,
       "value": "\"Bubbl.CorrelationID\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8500,
+      "offset": 2469,
       "length": 21,
       "value": "\"Bubbl.Configuration\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8565,
+      "offset": 2534,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 8647,
+      "offset": 2616,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "Array",
-      "offset": 14357,
+      "offset": 7757,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 14659,
+      "offset": 8059,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15169,
+      "offset": 8569,
       "length": 30,
       "value": "\"\/api\/device-registerd\/create\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15267,
+      "offset": 8667,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15295,
+      "offset": 8695,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15335,
+      "offset": 8735,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15372,
+      "offset": 8772,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15412,
+      "offset": 8812,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 15483,
+      "offset": 8883,
       "length": 8,
       "value": "\"ApiKey\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16013,
+      "offset": 9413,
       "length": 9,
       "value": "\"pending\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16097,
+      "offset": 9497,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16182,
+      "offset": 9582,
       "length": 3,
       "value": "\",\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16276,
+      "offset": 9676,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16332,
+      "offset": 9732,
       "length": 10,
       "value": "\"app_name\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16390,
+      "offset": 9790,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16420,
+      "offset": 9820,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16443,
+      "offset": 9843,
       "length": 9,
       "value": "\"api_key\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16480,
+      "offset": 9880,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16538,
+      "offset": 9938,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16582,
+      "offset": 9982,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16599,
+      "offset": 9999,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16616,
+      "offset": 10016,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16635,
+      "offset": 10035,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16686,
+      "offset": 10086,
       "length": 14,
       "value": "\"device_model\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16729,
+      "offset": 10129,
       "length": 13,
       "value": "\"device_name\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16771,
+      "offset": 10171,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16788,
+      "offset": 10188,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16809,
+      "offset": 10209,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16865,
+      "offset": 10265,
       "length": 10,
       "value": "\"language\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 16921,
+      "offset": 10321,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17011,
+      "offset": 10411,
       "length": 15,
       "value": "\"segmentations\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17051,
+      "offset": 10451,
       "length": 16,
       "value": "\"correlation_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17096,
+      "offset": 10496,
       "length": 10,
       "value": "\"bubbl_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17113,
+      "offset": 10513,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17130,
+      "offset": 10530,
       "length": 14,
       "value": "\"device_token\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17464,
+      "offset": 10864,
       "length": 459,
       "value": "\"┌─🔒  Registering device\n│ URL: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17545,
+      "offset": 10945,
       "length": 3,
       "value": "\"\n│ Headers:\n│   Content-Type: application\/json\n│   Accept: application\/json\n│   ApiKey: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17682,
+      "offset": 11082,
       "length": 3,
       "value": "\"\n│ Body:\n\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17754,
+      "offset": 11154,
       "length": 12,
       "value": "\"<non-utf8>\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 17767,
+      "offset": 11167,
       "length": 135,
       "value": "\"\n└────────────────────────────────────────────\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18479,
+      "offset": 11879,
       "length": 27,
       "value": "\"HTTP request failed: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18505,
+      "offset": 11905,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18844,
+      "offset": 12244,
       "length": 448,
       "value": "\"┌─📬  HTTP \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18899,
+      "offset": 12299,
       "length": 3,
       "value": "\"\n│ Headers:\n\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18974,
+      "offset": 12374,
       "length": 20,
       "value": "\"│   \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18986,
+      "offset": 12386,
       "length": 1,
       "value": "\": \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 18993,
+      "offset": 12393,
       "length": 23,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 19015,
+      "offset": 12415,
       "length": 4,
       "value": "\"\n\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 19021,
+      "offset": 12421,
       "length": 3,
       "value": "\"\n│ Raw body:\n\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 19109,
+      "offset": 12509,
       "length": 10,
       "value": "\"<binary>\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 19120,
+      "offset": 12520,
       "length": 135,
       "value": "\"\n└────────────────────────────────────────────\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 19318,
+      "offset": 12718,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 19324,
+      "offset": 12724,
       "length": 3,
       "value": "299"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 20249,
+      "offset": 13649,
       "length": 26,
       "value": "\"Decoding error: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 20274,
+      "offset": 13674,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 20730,
+      "offset": 14130,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 20865,
+      "offset": 14265,
       "length": 9,
       "value": "\"pending\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 21414,
+      "offset": 14814,
       "length": 30,
       "value": "\"\/api\/device-registerd\/create\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 21528,
+      "offset": 14928,
       "length": 47,
       "value": "\"Skipping token sync - invalid URL: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 21574,
+      "offset": 14974,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22113,
+      "offset": 15513,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22141,
+      "offset": 15541,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22181,
+      "offset": 15581,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22218,
+      "offset": 15618,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22258,
+      "offset": 15658,
       "length": 8,
       "value": "\"Accept\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22317,
+      "offset": 15717,
       "length": 8,
       "value": "\"ApiKey\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22380,
+      "offset": 15780,
       "length": 10,
       "value": "\"app_name\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22438,
+      "offset": 15838,
       "length": 14,
       "value": "\"CFBundleName\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22468,
+      "offset": 15868,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22491,
+      "offset": 15891,
       "length": 9,
       "value": "\"api_key\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22528,
+      "offset": 15928,
       "length": 13,
       "value": "\"sdk_version\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22586,
+      "offset": 15986,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22630,
+      "offset": 16030,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22647,
+      "offset": 16047,
       "length": 10,
       "value": "\"platform\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22664,
+      "offset": 16064,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22683,
+      "offset": 16083,
       "length": 12,
       "value": "\"os_version\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22734,
+      "offset": 16134,
       "length": 14,
       "value": "\"device_model\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22777,
+      "offset": 16177,
       "length": 13,
       "value": "\"device_name\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22819,
+      "offset": 16219,
       "length": 14,
       "value": "\"manufacturer\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22836,
+      "offset": 16236,
       "length": 7,
       "value": "\"Apple\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22857,
+      "offset": 16257,
       "length": 9,
       "value": "\"country\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22913,
+      "offset": 16313,
       "length": 10,
       "value": "\"language\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 22969,
+      "offset": 16369,
       "length": 11,
       "value": "\"device_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23008,
+      "offset": 16408,
       "length": 15,
       "value": "\"segmentations\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23068,
+      "offset": 16468,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23084,
+      "offset": 16484,
       "length": 16,
       "value": "\"correlation_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23150,
+      "offset": 16550,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23166,
+      "offset": 16566,
       "length": 10,
       "value": "\"bubbl_id\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23223,
+      "offset": 16623,
       "length": 3,
       "value": "\"0\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23240,
+      "offset": 16640,
       "length": 14,
       "value": "\"device_token\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "Array",
-      "offset": 23372,
+      "offset": 16772,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23414,
+      "offset": 16814,
       "length": 48,
       "value": "\"Skipping token sync - failed to serialize body\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23553,
+      "offset": 16953,
       "length": 46,
       "value": "\"🔄 Syncing refreshed push token to backend\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23731,
+      "offset": 17131,
       "length": 50,
       "value": "\"Token sync failed: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23780,
+      "offset": 17180,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 23921,
+      "offset": 17321,
       "length": 37,
       "value": "\"Token sync failed: invalid response\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 24017,
+      "offset": 17417,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 24023,
+      "offset": 17423,
       "length": 3,
       "value": "299"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 24096,
+      "offset": 17496,
       "length": 51,
       "value": "\"Token sync failed with status: \""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 24146,
+      "offset": 17546,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "StringLiteral",
-      "offset": 24282,
+      "offset": 17682,
       "length": 23,
       "value": "\"✅ Push token synced\""
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "BooleanLiteral",
-      "offset": 29366,
+      "offset": 22766,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/tmp\/bubbl-ios-v2.1-patch-239\/Bubbl\/Bubbl\/Services\/APIService.swift",
+      "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Services\/APIService.swift",
       "kind": "IntegerLiteral",
-      "offset": 43207,
+      "offset": 35661,
       "length": 2,
       "value": "-1"
     }

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.3 effective-5.10 (swiftlang-6.3.0.123.5 clang-2100.0.123.102)
+// swift-compiler-version: Apple Swift version 6.3.1 effective-5.10 (swiftlang-6.3.1.1.2 clang-2100.0.123.102)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Bubbl
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.1
 @_exported import Bubbl
 import Combine
 import CoreLocation
@@ -154,7 +154,6 @@ public struct NotificationEnvelope : Swift.Identifiable {
 public struct Config {
   public enum Environment : Swift.String, Swift.CaseIterable, Swift.Codable {
     case development
-    case nightly
     case staging
     case production
     public init?(rawValue: Swift.String)
@@ -172,7 +171,6 @@ public struct Config {
   case development = 0
   case staging = 1
   case production = 2
-  case nightly = 3
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
@@ -189,12 +187,8 @@ public struct Config {
     @objc get
   }
   @objc final public func clearLogs()
-  final public func start(env: Bubbl.Config.Environment = .staging, segmentations: [Swift.String] = [], delegate: (any Bubbl.BubblPluginDelegate)? = nil)
   final public func start(apiKey: Swift.String, env: Bubbl.Config.Environment = .staging, segmentations: [Swift.String] = [], delegate: (any Bubbl.BubblPluginDelegate)? = nil)
-  final public func start(companyApiKey: Swift.String, appId: Swift.String, appApiKey: Swift.String, iosBundleId: Swift.String, env: Bubbl.Config.Environment = .staging, segmentations: [Swift.String] = [], includeLegacyApiKeyHeader: Swift.Bool = true, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
   @objc(startWithApiKey:environment:segmentations:delegate:) final public func startObjC(apiKey: Swift.String, environment: Bubbl.BubblEnvironment, segmentations: Foundation.NSArray? = nil, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
-  @objc(startWithEnvironment:segmentations:delegate:) final public func startObjC(environment: Bubbl.BubblEnvironment, segmentations: Foundation.NSArray? = nil, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
-  @objc(startWithCompanyApiKey:appId:appApiKey:iosBundleId:environment:segmentations:delegate:) final public func startObjC(companyApiKey: Swift.String, appId: Swift.String, appApiKey: Swift.String, iosBundleId: Swift.String, environment: Bubbl.BubblEnvironment, segmentations: Foundation.NSArray? = nil, delegate: (any Bubbl.BubblPluginDelegate)? = nil)
   final public func updateSegments(segmentations: [Swift.String], completion: ((Swift.Result<Swift.Bool, any Swift.Error>) -> Swift.Void)? = nil)
   @objc(updateSegments:completion:) final public func updateSegmentsObjC(segmentations: Foundation.NSArray, completion: ((Swift.Bool, (any Swift.Error)?) -> Swift.Void)? = nil)
   @objc final public func setCorrelationId(_ correlationId: Swift.String)
