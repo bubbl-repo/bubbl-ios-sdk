@@ -17016,14 +17016,14 @@
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
       "kind": "StringLiteral",
-      "offset": 2322,
+      "offset": 2943,
       "length": 15,
       "value": "\"question_type\""
     },
     {
       "filePath": "\/Users\/jackwright\/Projects\/bubbl-platform\/sdk\/bubbl-ios-source\/Bubbl\/Bubbl\/Models\/Campaign\/NewCampaignModels.swift",
       "kind": "StringLiteral",
-      "offset": 2364,
+      "offset": 2985,
       "length": 13,
       "value": "\"has_choices\""
     },
